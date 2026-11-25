@@ -1,4 +1,4 @@
-# swiftsign-ca
+# SwiftSign
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-swiftsign-ca is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://swiftsign.ca/
+SwiftSign provides AI‑native electronic signature services, allowing developers to send, track, and seal contracts directly from the terminal or via API. Built for ESIGN, UETA, and Canadian e‑sign laws, it offers a flat‑rate pricing model, free sandbox, and webhook events for envelope lifecycle. The platform emphasizes developer‑first tooling, open‑source MCP integration, and secure SHA‑256 sealed PDFs.
+
+**Areas:** AI · eSignature · DeveloperTools · OpenSource · Canada
+
+## SwiftSign on APIs.io
+
+Everything profiled for SwiftSign is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/swiftsign-ca/](https://apis.io/providers/swiftsign-ca/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [SwiftSign API](https://apis.io/apis/swiftsign-ca/swiftsign-api/) — Agent-native e-signature API providing envelope creation, signing, and webhook events.
+- [SwiftSign API API](https://apis.io/apis/swiftsign-ca/swiftsign-api-api/) — Agent-native e-signature API. Sign up with one unauthenticated call, get a sandbox key, and send a sealed envelope in minutes. All endpoints except signup…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Swiftsign Ca Webhooks](https://apis.io/asyncapis/swiftsign-ca/swiftsign-ca-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateTemplateBody](https://apis.io/schemas/swiftsign-ca/swiftsign-ca-create-template-body/)
+- [Envelope](https://apis.io/schemas/swiftsign-ca/swiftsign-ca-envelope/)
+- [EnvelopeList](https://apis.io/schemas/swiftsign-ca/swiftsign-ca-envelope-list/)
+- [SignupResult](https://apis.io/schemas/swiftsign-ca/swiftsign-ca-signup-result/)
+- [Template](https://apis.io/schemas/swiftsign-ca/swiftsign-ca-template/)
+- [UpgradeResult](https://apis.io/schemas/swiftsign-ca/swiftsign-ca-upgrade-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Swiftsign Ca Context](https://apis.io/jsonld/swiftsign-ca/swiftsign-ca-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SwiftSign API Rules](https://apis.io/rules/swiftsign-ca/swiftsign-ca-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SwiftSign Authentication](https://apis.io/security/swiftsign-ca/swiftsign-ca-authentication/)
+- [SwiftSign Domain Security](https://apis.io/security/swiftsign-ca/swiftsign-ca-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SwiftSign Plans Pricing](https://apis.io/plans/swiftsign-ca/swiftsign-ca-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://swiftsign.ca/)
+- [Getting started](https://swiftsign.ca/docs)
+- [API reference](https://swiftsign.ca/reference)
+- [Pricing](https://swiftsign.ca/pricing)
+- [Trust centre](https://swiftsign.ca/trust)
+- [Terms of service](https://swiftsign.ca/legal/terms)
+- [Privacy policy](https://swiftsign.ca/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 50.7** — developing · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 63.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.1 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 47.2 |
+
+**Agent readiness 53.6** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 21.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/swiftsign-ca/](https://apis.io/providers/swiftsign-ca/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SwiftSign: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/swiftsign-ca/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
